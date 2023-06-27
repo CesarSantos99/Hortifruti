@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    background: #fffefe;
+    box-shadow: 1px 1px 4px #dad0d0;
+
+}
+
+.logo img {
+    width: 150px;
+    height: 130px;
+
+}
+
+.navigation-links {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 80px;
+    
+}
+
+.navigation-links a {
+    text-decoration: none;
+    color: rgb(43, 172, 43);
+    font-size: 20px;
+    transition: 0.8s;
+    font-weight: 500;
+}
+
+.navigation-links a:hover {
+    color: rgb(0, 15, 3);
+}
+
+.navigation-links a:active {
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
