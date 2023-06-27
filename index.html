@@ -1,20 +1,122 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hortifruti</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
     <header>
-        <div>
-            <img src="assets/logo.jpg" alt="logo">
-            <input type="text" placeholder="Pesquise por produtos">
-            
+        <div class="header">
+
+            <!-- Logo -->
+            <div class="logo">
+                <img src="assets/logo.jpg" alt="logo">
+            </div>
+            <!-- fim Logo -->
+
+            <!-- links  -->
+            <div class="navigation-links">
+                <a href="#">Pagina inicial</a>
+                <a href="#">Sobre</a>
+                <a href="#">Contato</a>
+            </div>
+            <!-- fim links  -->
+
         </div>
     </header>
-    
+
+    <main>
+
+        <!-- Carrosel -->
+
+        <div class="carousel">
+            <div class="carousel-content">
+                <div class="carousel-item">Slide 1</div>
+                <div class="carousel-item">Slide 2</div>
+                <div class="carousel-item">Slide 3</div>
+                <div class="carousel-item">Slide 4</div>
+                <div class="carousel-item">Slide 5</div>
+            </div>
+        </div>
+
+        <!-- fim Carrosel -->
+
+        <h1>Verduras</h1>
+
+        <!-- Cards -->
+
+        <div>
+
+            <!-- Cards1 -->
+            <div>
+                <img src="./assets/Alface.jpg" alt="alface">
+                <p>Alface</p>
+                <button>Adicionar no carrinho</button>
+            </div>
+
+            <!-- Cards2 -->
+            <div>
+                <img src="./assets/couve-flor.jpg" alt="alface">
+                <p>Couve-flor</p>
+                <button>Adicionar no carrinho</button>
+            </div>
+
+            <!-- Cards3 -->
+            <div>
+                <img src="./assets/cenoura.jpg" alt="alface">
+                <p>Cenoura</p>
+                <button>Adicionar no carrinho</button>
+            </div>
+
+            <!-- Cards4 -->
+            <div>
+                <img src="./assets/beterraba.jpg" alt="alface">
+                <p>Beterraba</p>
+                <button>Adicionar no carrinho</button>
+            </div>
+
+            <!-- Cards5 -->
+            <div>
+                <img src="./assets/batat.jpg" alt="alface">
+                <p>Batata</p>
+                <button>Adicionar no carrinho</button>
+            </div>
+
+            <!-- Cards6 -->
+            <div>
+                <img src="./assets/couve.jpg" alt="alface">
+                <p>Couve</p>
+                <button>Adicionar no carrinho</button>
+            </div>
+
+        </div>
+
+        <!-- fim cards -->
+
+        <p>Produtos frequinhos e naturais <a href="#">Faça logo seu pedido</a></p>
+
+    </main>
+
+    <footer>
+
+        <div>
+
+            <h1>Alvair Junior</h1>
+            <h3>Os melhores produtos, sem agrotóxicos e direto da fazenda.</h3>
+            <p>+55 (37) 99925-3658</p>
+
+        </div>
+    </footer>
+
 </body>
+<script src="./script.js"></script>
+
 </html>
