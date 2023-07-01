@@ -61,7 +61,7 @@
 
 .carrosel-item {
     object-fit: cover;
-    width: 50vw;
+    width: 200px;
     height: 450px;
 }
 
