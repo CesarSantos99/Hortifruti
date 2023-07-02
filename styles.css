@@ -48,23 +48,23 @@
 
 .carrosel {
     width: 100%;
-    height: 450px;
-    overflow: hidden;
-    margin: 5px auto;
-}
-
-.carrosel-content {
-    display: flex;
-    transition: tranform 0.5 ease-in-out; 
-    transform: translateX(0);
+    height: 485px;
+    margin: 3px ;
 }
 
 .carrosel-item {
     object-fit: cover;
-    width: 200px;
-    height: 450px;
+    width: 188px;
+    height: 485px;
+    box-shadow: 1px 1px 4px #dad0d0;
+
 }
 
+h1 {
+    text-align: center;
+    color: rgb(43, 172, 43);
+
+}
 
 
 
